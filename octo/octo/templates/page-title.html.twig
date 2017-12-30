@@ -1,0 +1,12 @@
+<section class="page-top">
+    <div class="container">
+        page title
+  {#      {{ title }}
+        {{ title_prefix }}
+        {% if title %}
+            <h1{{ title_attributes }}>{{ title }}</h1>
+        {% endif %}
+        {{ title_suffix }}
+#}
+    </div>
+</section>
